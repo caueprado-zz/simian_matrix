@@ -1,0 +1,16 @@
+[[source]]
+name = "simian"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+flask = ">=1.1.2"
+pymongo = ">=3.10.1"
+requests = ">=1.4"
+flask-pymongo = "2.3.0"
+awsebcli = "*"
+
+[requires]
+python_version = "3.7"
